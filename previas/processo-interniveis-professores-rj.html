@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Processo Interníveis: Professores do Estado do RJ Têm Direito a Subir de Nível e Receber Atrasados</title>
+  <style>
+    :root {
+      --page: #d8d3c8;
+      --surface: #fff;
+      --line: #efefef;
+      --text: #111;
+      --muted: #737373;
+      --blue: #0095f6;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 38px 18px;
+      background: var(--page);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    .post {
+      width: min(420px, calc(100vw - 36px));
+      overflow: hidden;
+      border: 1px solid #dbdbdb;
+      border-radius: 10px;
+      background: var(--surface);
+      box-shadow: 0 18px 48px rgba(0, 0, 0, 0.14);
+    }
+
+    .post-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      height: 52px;
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+      flex: 0 0 34px;
+      overflow: hidden;
+      border-radius: 50%;
+      background: #eee;
+    }
+
+    .avatar img,
+    .slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .profile {
+      min-width: 0;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .username {
+      overflow: hidden;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .verified {
+      width: 14px;
+      height: 14px;
+      flex: 0 0 14px;
+      color: var(--blue);
+    }
+
+    .icon-button {
+      display: inline-grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border: 0;
+      background: transparent;
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    .icon-button svg {
+      width: 24px;
+      height: 24px;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+
+    .media {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      overflow: hidden;
+      background: #f7f1e5;
+      cursor: grab;
+      touch-action: pan-y;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    .media.dragging {
+      cursor: grabbing;
+    }
+
+    .track {
+      display: flex;
+      height: 100%;
+      transition: transform 260ms ease;
+      will-change: transform;
+    }
+
+    .slide {
+      min-width: 100%;
+      height: 100%;
+      background: #f7f1e5;
+    }
+
+    .slide img {
+      pointer-events: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    .counter {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 3;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(0, 0, 0, 0.62);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1;
+    }
+
+    .hit {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 2;
+      width: 33.333%;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    .hit.prev {
+      left: 0;
+    }
+
+    .hit.next {
+      right: 0;
+    }
+
+    .dots {
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+      height: 18px;
+      padding-top: 8px;
+      background: var(--surface);
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border: 0;
+      border-radius: 50%;
+      background: #c7c7c7;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background: var(--blue);
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      height: 40px;
+      padding: 4px 12px 8px;
+      background: var(--surface);
+    }
+
+    .actions .icon-button {
+      width: 26px;
+      height: 26px;
+    }
+
+    .actions .icon-button svg {
+      width: 25px;
+      height: 25px;
+    }
+
+    .save {
+      margin-left: auto;
+    }
+
+    .likes,
+    .caption,
+    .time {
+      background: var(--surface);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .likes {
+      padding: 0 12px 4px;
+      font-weight: 600;
+    }
+
+    .caption {
+      padding: 0 12px 2px;
+      white-space: pre-wrap;
+    }
+
+    .caption strong {
+      font-weight: 600;
+    }
+
+    .caption .more,
+    .time {
+      color: var(--muted);
+    }
+
+    .time {
+      padding: 4px 12px 14px;
+      font-size: 11px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 520px) {
+      body {
+        display: block;
+        min-height: 100vh;
+        padding: 0;
+        background: var(--surface);
+      }
+
+      .post {
+        width: 100vw;
+        min-height: 100vh;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+
+      .post-header {
+        height: 50px;
+      }
+
+      .media {
+        width: 100vw;
+      }
+    }
+    /* Suporte nativo a Stories (9:16) */
+    .post.is-story {
+      width: min(390px, calc(100vw - 36px));
+      border-radius: 18px;
+      background: #000;
+      position: relative;
+      border: 1px solid #334155;
+    }
+    /* Suporte nativo a Reels (9:16) preservando legenda e engajamento */
+    .post.is-reels {
+      width: min(400px, calc(100vw - 36px));
+      border-radius: 14px;
+    }
+    .post.is-reels .media {
+      aspect-ratio: 9 / 16;
+    }
+    .post.is-story .post-header {
+      position: absolute;
+      top: 14px;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+      border-bottom: 0;
+      color: #fff;
+    }
+    .post.is-story .username {
+      color: #fff;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+    }
+    .post.is-story .icon-button {
+      color: #fff;
+    }
+    .post.is-story .media {
+      aspect-ratio: 9 / 16;
+      border-radius: 18px;
+    }
+    .post.is-story .actions,
+    .post.is-story .likes,
+    .post.is-story .caption,
+    .post.is-story .time,
+    .post.is-story .counter,
+    .post.is-story .dots {
+      display: none !important;
+    }
+    .story-bar {
+      display: none;
+    }
+    .post.is-story .story-bar {
+      display: flex;
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      right: 10px;
+      height: 2.5px;
+      gap: 4px;
+      z-index: 11;
+    }
+    .story-segment {
+      flex: 1;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 2px;
+    }
+    .story-segment.active {
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <article class="post " aria-label="Preview do post no Instagram">
+    <div class="story-bar"><div class="story-segment active"></div></div>
+    <header class="post-header">
+      <div class="avatar">
+        <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2096%2096%22%3E%3Crect%20width%3D%2296%22%20height%3D%2296%22%20rx%3D%2248%22%20fill%3D%22%231e293b%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fafc%22%3ETE%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Avatar de teixeiraeviana.adv">
+      </div>
+      <div class="profile">
+        <span class="username">teixeiraeviana.adv</span>
+        <svg class="verified " viewBox="0 0 24 24" aria-label="Verificado">
+          <path fill="currentColor" d="M22 12l-2.1 2.4.3 3.2-3.1.7-1.6 2.8-2.9-1.3-2.9 1.3-1.6-2.8-3.1-.7.3-3.2L3 12l2.1-2.4-.3-3.2 3.1-.7 1.6-2.8 2.9 1.3 2.9-1.3 1.6 2.8 3.1.7-.3 3.2L22 12z"></path>
+          <path d="M8.3 12.2l2.3 2.3 5.1-5.1" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+        </svg>
+      </div>
+      <button class="icon-button" type="button" aria-label="Mais opcoes">
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="5" r="1.5" fill="currentColor" stroke="none"></circle>
+          <circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"></circle>
+          <circle cx="12" cy="19" r="1.5" fill="currentColor" stroke="none"></circle>
+        </svg>
+      </button>
+    </header>
+
+    <section class="media" id="media">
+      <div class="track" id="track"></div>
+      <span class="counter" id="counter">1/1</span>
+      <button class="hit prev" type="button" id="prev" aria-label="Slide anterior"></button>
+      <button class="hit next" type="button" id="next" aria-label="Proximo slide"></button>
+    </section>
+
+    <nav class="dots" id="dots" aria-label="Navegacao dos slides"></nav>
+
+    <section class="actions" aria-label="Acoes do post">
+      <button class="icon-button" type="button" aria-label="Curtir"><svg viewBox="0 0 24 24"><path d="M20.8 4.6c-1.8-1.8-4.7-1.8-6.5 0L12 6.9 9.7 4.6c-1.8-1.8-4.7-1.8-6.5 0s-1.8 4.7 0 6.5L12 20l8.8-8.9c1.8-1.8 1.8-4.7 0-6.5z"></path></svg></button>
+      <button class="icon-button" type="button" aria-label="Comentar"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-8.7 8.3 9.7 9.7 0 0 1-4.3-1l-5 1.2 1.3-4.4a8.2 8.2 0 0 1-.9-3.8A8.4 8.4 0 0 1 12 3.5a8.4 8.4 0 0 1 9 8z"></path></svg></button>
+      <button class="icon-button" type="button" aria-label="Compartilhar"><svg viewBox="0 0 24 24"><path d="M22 3L9.5 13.2"></path><path d="M22 3l-4.2 18-6.1-7.4L3 10.6 22 3z"></path></svg></button>
+      <button class="icon-button save" type="button" aria-label="Salvar"><svg viewBox="0 0 24 24"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"></path></svg></button>
+    </section>
+
+    <div class="likes">2.540 curtidas</div>
+    <p class="caption"><strong>teixeiraeviana.adv</strong> Você é professor concursado da rede estadual do Rio de Janeiro (SEEDUC-RJ) e sente que o seu contracheque não reflete os anos de dedicação em sala de aula? 🏛️📚
+
+Muitos docentes que foram aprovados nos concursos públicos homologados entre 1998 e 2002 foram posicionados em referências e níveis salariais inferiores aos que a Lei Estadual nº 1.614/90 (Plano de Carreira do Magistério) determina!
+
+Essa distorção gerou um congelamento funcional ilegal na carreira de milhares de professores, achatando o vencimento básico e todas as vantagens associadas.
+
+⚖️ O QUE O TRIBUNAL DE JUSTIÇA DO RJ (TJ-RJ) PACIFICOU:
+O Estado tem o dever legal de realizar a transposição de nível e o reposicionamento funcional na referência correta. Essa vitória judicial garante:
+
+1️⃣ ATUALIZAÇÃO IMEDIATA DO CONTRACHEQUE:
+O salto para a referência correta provoca um efeito cascata positivo sobre triênios (15%, 30%, 45%), adicionais de pós-graduação/mestrado/doutorado e gratificações funcionais.
+
+2️⃣ COBRANÇA DOS ÚLTIMOS 5 ANOS (60 MESES DE ATRASADOS):
+O professor tem o direito de receber retroativamente todas as diferenças não pagas dos últimos 5 anos com juros de mora e correção monetária integral. Em cálculos periciais, os valores acumulados variam de R$ 25.000 a mais de R$ 70.000 por matrícula.
+
+3️⃣ DIREITO ESTENDIDO A APOSENTADOS E PENSIONISTAS:
+Quem já se aposentou sob o regime da paridade constitucional tem o mesmo direito de retificar a base dos seus proventos e cobrar os atrasados devidos pelo RIOPREVIDÊNCIA.
+
+⏳ ATENÇÃO À PRESCRIÇÃO QUINQUENAL:
+As dívidas do Estado prescrevem mês a mês. Cada mês sem analisar o seu holerite é um mês de atrasados que se perde definitivamente. &quot;O direito não socorre aos que dormem!&quot;
+
+📲 QUER SABER O VALOR EXATO QUE SEU CONTRACHEQUE TEM A RECEBER?
+Comente a palavra &quot;INTERNIVEIS&quot; aqui nos comentários ou envie uma mensagem no nosso Direct @teixeiraeviana.adv para que nossa equipe pericial faça a simulação detalhada da sua carreira.
+
+---
+#ProfessoresRJ #Interniveis #SEEDUC #ProfessoresEstaduais #DireitoDoServidor #MagisterioRJ #ServidorPublicoRJ #RIOPREVIDENCIA #CamposDosGoytacazes #TeixeiraEVianaAdvogados #DrEdmarTeixeira <span class="more">mais</span></p>
+    <div class="time">Há 1 hora</div>
+  </article>
+
+  <script id="slides-data" type="application/json">["../saidas/carrosseis/processo-interniveis-professores-rj/slide-01.png?v=1791900850332","../saidas/carrosseis/processo-interniveis-professores-rj/slide-02.png?v=1791900850332","../saidas/carrosseis/processo-interniveis-professores-rj/slide-03.png?v=1791900850332","../saidas/carrosseis/processo-interniveis-professores-rj/slide-04.png?v=1791900850332","../saidas/carrosseis/processo-interniveis-professores-rj/slide-05.png?v=1791900850332","../saidas/carrosseis/processo-interniveis-professores-rj/slide-06.png?v=1791900850332","../saidas/carrosseis/processo-interniveis-professores-rj/slide-07.png?v=1791900850332"]</script>
+  <script>
+    const slides = JSON.parse(document.getElementById("slides-data")?.textContent || "[]");
+    const track = document.getElementById("track");
+    const dots = document.getElementById("dots");
+    const counter = document.getElementById("counter");
+    const prev = document.getElementById("prev");
+    const next = document.getElementById("next");
+    const media = document.getElementById("media");
+    let current = 0;
+    let startX = 0;
+    let currentX = 0;
+    let dragging = false;
+    let didDrag = false;
+
+    slides.forEach((src, index) => {
+      const slide = document.createElement("div");
+      slide.className = "slide";
+      const cleanSrc = src.split("?")[0].toLowerCase();
+      if (cleanSrc.endsWith(".mp4") || cleanSrc.endsWith(".webm")) {
+        const video = document.createElement("video");
+        video.src = src;
+        video.controls = true;
+        video.playsInline = true;
+        video.autoplay = true;
+        video.muted = true;
+        video.loop = true;
+        video.style.width = "100%";
+        video.style.height = "100%";
+        video.style.objectFit = "cover";
+        slide.appendChild(video);
+      } else {
+        const img = document.createElement("img");
+        img.src = src;
+        img.alt = `Slide ${index + 1}`;
+        slide.appendChild(img);
+      }
+      track.appendChild(slide);
+
+      const dot = document.createElement("button");
+      dot.className = "dot";
+      dot.type = "button";
+      dot.setAttribute("aria-label", `Ir para slide ${index + 1}`);
+      dot.addEventListener("click", () => {
+        current = index;
+        render();
+      });
+      dots.appendChild(dot);
+    });
+
+    function render() {
+      track.style.transition = "transform 260ms ease";
+      track.style.transform = `translateX(${-current * 100}%)`;
+      counter.textContent = `${current + 1}/${slides.length}`;
+      [...dots.children].forEach((dot, index) => dot.classList.toggle("active", index === current));
+      prev.disabled = current === 0;
+      next.disabled = current === slides.length - 1;
+    }
+
+    function go(delta) {
+      current = Math.max(0, Math.min(slides.length - 1, current + delta));
+      render();
+    }
+
+    function handleTap(delta) {
+      if (didDrag) {
+        didDrag = false;
+        return;
+      }
+      go(delta);
+    }
+
+    prev.addEventListener("click", () => handleTap(-1));
+    next.addEventListener("click", () => handleTap(1));
+
+    media.addEventListener("pointerdown", (event) => {
+      if (event.target.closest("button")) return;
+      dragging = true;
+      didDrag = false;
+      startX = event.clientX;
+      currentX = event.clientX;
+      track.style.transition = "none";
+      media.classList.add("dragging");
+      media.setPointerCapture(event.pointerId);
+    });
+
+    media.addEventListener("pointermove", (event) => {
+      if (!dragging) return;
+      currentX = event.clientX;
+      const distance = currentX - startX;
+      if (Math.abs(distance) > 8) didDrag = true;
+      const width = media.clientWidth || 1;
+      const edgeResistance = (current === 0 && distance > 0) || (current === slides.length - 1 && distance < 0) ? 0.28 : 1;
+      track.style.transform = `translateX(${(-current * 100) + ((distance * edgeResistance / width) * 100)}%)`;
+    });
+
+    function finishDrag(event) {
+      if (!dragging) return;
+      const distance = currentX - startX;
+      dragging = false;
+      media.classList.remove("dragging");
+      if (event.pointerId !== undefined && media.hasPointerCapture(event.pointerId)) media.releasePointerCapture(event.pointerId);
+      if (Math.abs(distance) > 45) {
+        go(distance < 0 ? 1 : -1);
+      } else {
+        render();
+      }
+    }
+
+    media.addEventListener("pointerup", finishDrag);
+    media.addEventListener("pointercancel", finishDrag);
+    render();
+  </script>
+</body>
+</html>
