@@ -287,10 +287,78 @@
         width: 100vw;
       }
     }
+    /* Suporte nativo a Stories (9:16) */
+    .post.is-story {
+      width: min(390px, calc(100vw - 36px));
+      border-radius: 18px;
+      background: #000;
+      position: relative;
+      border: 1px solid #334155;
+    }
+    /* Suporte nativo a Reels (9:16) preservando legenda e engajamento */
+    .post.is-reels {
+      width: min(400px, calc(100vw - 36px));
+      border-radius: 14px;
+    }
+    .post.is-reels .media {
+      aspect-ratio: 9 / 16;
+    }
+    .post.is-story .post-header {
+      position: absolute;
+      top: 14px;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+      border-bottom: 0;
+      color: #fff;
+    }
+    .post.is-story .username {
+      color: #fff;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+    }
+    .post.is-story .icon-button {
+      color: #fff;
+    }
+    .post.is-story .media {
+      aspect-ratio: 9 / 16;
+      border-radius: 18px;
+    }
+    .post.is-story .actions,
+    .post.is-story .likes,
+    .post.is-story .caption,
+    .post.is-story .time,
+    .post.is-story .counter,
+    .post.is-story .dots {
+      display: none !important;
+    }
+    .story-bar {
+      display: none;
+    }
+    .post.is-story .story-bar {
+      display: flex;
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      right: 10px;
+      height: 2.5px;
+      gap: 4px;
+      z-index: 11;
+    }
+    .story-segment {
+      flex: 1;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 2px;
+    }
+    .story-segment.active {
+      background: #fff;
+    }
   </style>
 </head>
 <body>
-  <article class="post" aria-label="Preview do post no Instagram">
+  <article class="post " aria-label="Preview do post no Instagram">
+    <div class="story-bar"><div class="story-segment active"></div></div>
     <header class="post-header">
       <div class="avatar">
         <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2096%2096%22%3E%3Crect%20width%3D%2296%22%20height%3D%2296%22%20rx%3D%2248%22%20fill%3D%22%231e293b%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23f8fafc%22%3ETE%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Avatar de teixeiraeviana.adv">
@@ -328,42 +396,42 @@
     </section>
 
     <div class="likes">1.890 curtidas</div>
-    <p class="caption"><strong>teixeiraeviana.adv</strong> Ser desembarcado às pressas de uma plataforma ou navio sob acusação de falta grave é uma das experiências mais violentas que um trabalhador offshore pode vivenciar. 🛑⚓
+    <p class="caption"><strong>teixeiraeviana.adv</strong> Ser desembarcado às pressas de plataforma ou navio sob acusação de falta grave é uma das situações mais violentas para um trabalhador offshore. 🛑⚓
 
-Mas na grande maioria dos casos que chegam ao nosso escritório, essa atitude não tem nada a ver com conduta do empregado: trata-se de uma estratégia premeditada da operadora para &quot;se livrar&quot; do profissional sem pagar as verbas rescisórias mais caras da folha.
+Na maioria dos casos, isso não decorre de conduta do empregado: trata-se de manobra da operadora para cortar custos e não pagar as verbas rescisórias mais caras da folha.
 
-⚠️ O QUE A EMPRESA ECONOMIZA AO FORJAR UMA JUSTA CAUSA:
-• Não paga o aviso prévio indenizado (que pode chegar a 90 dias);
-• Retém o saque do FGTS integral acumulado durante anos;
-• Confisca a multa de 40% rescisória sobre o saldo total;
-• Impede a liberação das guias do seguro-desemprego.
+⚠️ O QUE A EMPRESA TENTA CONFISCAR AO FORJAR JUSTA CAUSA:
+• Aviso prévio indenizado (de até 90 dias);
+• Saque integral do FGTS acumulado;
+• Multa rescisória de 40% sobre o FGTS;
+• Guias do seguro-desemprego.
 
-🚨 OS 3 SINAIS CLÁSSICOS DE FRAUDE NA JUSTA CAUSA:
+🚨 3 SINAIS CLÁSSICOS DE FRAUDE NA JUSTA CAUSA:
 
 1️⃣ PUNIÇÃO DESPROPORCIONAL E IMEDIATA:
-A legislação trabalhista exige gradação da pena (advertência verbal, advertência escrita, suspensão). Aplicar demissão por justa causa direto por um mal-entendido ou atrito pontual é flagrantemente ilegal.
+A lei exige gradação pedagógica da pena (advertência verbal, escrita e suspensão). Demitir por justa causa direto por atrito pontual ou mal-entendido é ilegal.
 
 2️⃣ AUSÊNCIA DE AMPLA DEFESA E PROVA CABAL:
-O trabalhador é chamado à sala de chefia, impedido de se explicar ou apresentar testemunhas e colocado no helicóptero de volta no mesmo dia. A Justiça do Trabalho não tolera punições unilaterais sem prova cabal incontestável produzida pela empresa.
+O trabalhador é chamado à chefia, impedido de se defender e colocado no helicóptero no mesmo dia. A Justiça do Trabalho não tolera punição unilateral sem prova robusta da empresa.
 
-3️⃣ RETALIAÇÃO APÓS QUESTIONAMENTOS OU ATESTADO:
-Muitos desembarques forjados acontecem logo após o marítimo ou petroleiro cobrar horas extras, recusar dobra de escala ilegal ou apresentar atestado médico de desgaste físico ou psicológico.
+3️⃣ RETALIAÇÃO APÓS COBRANÇAS OU ATESTADO:
+Muitos desembarques ocorrem logo após o marítimo cobrar horas extras, recusar dobra abusiva ou apresentar atestado médico de exaustão.
 
 ⚖️ COMO A JUSTIÇA DO TRABALHO DECIDE:
-Quando a justa causa é revertida judicialmente, a operadora é condenada a pagar TODAS as verbas rescisórias integrais com correção monetária e juros, além de possíveis indenizações por danos morais pelo abalo à honra do trabalhador.
+Ao reverter a justa causa em juízo, a empresa é condenada a pagar TODAS as verbas rescisórias integrais com juros e correção, além de possível indenização por danos morais.
 
 🔒 REGRA DE OURO:
-Se tentarem te fazer assinar advertência com a qual você não concorda ou termo de confissão de culpa, NÃO ASSINE. Apenas coloque &quot;tomei ciência em [data]&quot; ou exija falar com sua assessoria jurídica.
+Não assine advertência indevida ou termo de culpa. Apenas registre &quot;tomei ciência em [data]&quot; e consulte assessoria jurídica especializada.
 
-📲 FOI DESEMBARCADO OU ESTÁ AMEAÇADO DE JUSTA CAUSA?
-Envie a palavra &quot;JUSTA CAUSA&quot; no nosso Direct @teixeiraeviana.adv para que nossa equipe faça uma análise técnica urgente e sob absoluto sigilo do seu caso.
+📲 DESEMBARCADO OU AMEAÇADO DE JUSTA CAUSA?
+Envie a palavra &quot;JUSTA CAUSA&quot; no nosso Direct @teixeiraeviana.adv para análise técnica imediata e sob sigilo do seu caso.
 
 ---
 #Offshore #Petroleiros #DireitoDoTrabalho #JustaCausa #Desembarque #Maritimos #BaciaDeCampos #Macae #Santos #TeixeiraEVianaAdvogados #DrMatheusViana <span class="more">mais</span></p>
     <div class="time">Há 1 hora</div>
   </article>
 
-  <script id="slides-data" type="application/json">["../saidas/posts-individuais/desembarque-justa-causa-forjada/slide-01.png?v=1791673157328"]</script>
+  <script id="slides-data" type="application/json">["../saidas/posts-individuais/desembarque-justa-causa-forjada/slide-01.png?v=1792435443469"]</script>
   <script>
     const slides = JSON.parse(document.getElementById("slides-data")?.textContent || "[]");
     const track = document.getElementById("track");
@@ -381,10 +449,25 @@ Envie a palavra &quot;JUSTA CAUSA&quot; no nosso Direct @teixeiraeviana.adv para
     slides.forEach((src, index) => {
       const slide = document.createElement("div");
       slide.className = "slide";
-      const img = document.createElement("img");
-      img.src = src;
-      img.alt = `Slide ${index + 1}`;
-      slide.appendChild(img);
+      const cleanSrc = src.split("?")[0].toLowerCase();
+      if (cleanSrc.endsWith(".mp4") || cleanSrc.endsWith(".webm")) {
+        const video = document.createElement("video");
+        video.src = src;
+        video.controls = true;
+        video.playsInline = true;
+        video.autoplay = true;
+        video.muted = true;
+        video.loop = true;
+        video.style.width = "100%";
+        video.style.height = "100%";
+        video.style.objectFit = "cover";
+        slide.appendChild(video);
+      } else {
+        const img = document.createElement("img");
+        img.src = src;
+        img.alt = `Slide ${index + 1}`;
+        slide.appendChild(img);
+      }
       track.appendChild(slide);
 
       const dot = document.createElement("button");
