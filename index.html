@@ -62,36 +62,30 @@
       aspect-ratio: 4/5;
       object-fit: cover;
       display: block;
-      background: #edf2f7;
+      background: #e2e8f0;
     }
     .card-body {
       padding: 16px;
     }
     .status {
-      display: inline-block;
       font-size: 11px;
-      font-weight: 700;
       text-transform: uppercase;
+      font-weight: 600;
       letter-spacing: 0.05em;
       color: var(--primary);
-      margin-bottom: 8px;
     }
     h2 {
       font-size: 16px;
       font-weight: 600;
-      margin-bottom: 12px;
-      line-height: 1.4;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
+      margin: 6px 0 12px;
+      line-height: 1.3;
     }
     a {
       display: inline-block;
-      font-size: 14px;
-      font-weight: 600;
       color: var(--primary);
       text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
     }
     a:hover {
       text-decoration: underline;
@@ -99,21 +93,29 @@
   </style>
 </head>
 <body>
-  <div class="shell">
+  <main class="shell">
     <header>
       <h1>Vitrine de Prévias</h1>
-      <p class="subtitle">Criativo AI Studio — Teixeira &amp; Viana Advogados</p>
+      <p class="subtitle">Criativo AI Studio — Galeria de publicações</p>
     </header>
-    <main class="grid">
+    <section class="grid">
       <article>
-        <img src="saidas/reels/reels-aposentados-piso-salarial/capa.png" alt="Capa">
-        <div class="card-body">
-          <span class="status">Reels</span>
-          <h2>Professor Aposentado Também Tem Direito ao Piso Salarial? Sentença Favorável!</h2>
-          <a href="previas/reels-aposentados-piso-salarial.html">Visualizar Prévia →</a>
-        </div>
-      </article>
-    </main>
-  </div>
+          <img src="saidas/reels/reels-aposentados-piso-salarial/capa.png" alt="Capa">
+          <div class="card-body">
+            <span class="status">Publicado</span>
+            <h2>Professor Aposentado Também Tem Direito ao Piso Salarial? Sentença Favorável!</h2>
+            <a href="previas/reels-aposentados-piso-salarial.html">Visualizar Prévia →</a>
+          </div>
+        </article>
+<article>
+          <img src="saidas/carrosseis/carrossel-7-sinais-aposentadoria/slide-01.jpg" alt="Capa">
+          <div class="card-body">
+            <span class="status">pronto_para_publicacao</span>
+            <h2>7 Sinais de que sua Aposentadoria está Errada</h2>
+            <a href="previas/carrossel-7-sinais-aposentadoria.html">Visualizar Prévia →</a>
+          </div>
+        </article>
+    </section>
+  </main>
 </body>
 </html>
