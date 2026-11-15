@@ -7,36 +7,37 @@
   <title>Vitrine de Publicações &amp; Prévias — Teixeira &amp; Viana Advogados</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #09111e;
-      --card-bg: #0f1d35;
-      --card-border: #1e3357;
+      --bg: #080f1d;
+      --card-bg: #0e1c31;
+      --card-border: rgba(212, 154, 61, 0.28);
+      --gold: #d49a3d;
+      --gold-light: #fceab3;
+      --gold-dark: #b37c26;
       --text: #f8fafc;
       --muted: #94a3b8;
-      --gold: #d49a3d;
-      --gold-light: #fce192;
-      --primary: #2563eb;
-      --success: #10b981;
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
     body {
       background: var(--bg);
       color: var(--text);
       font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      line-height: 1.5;
+      min-height: 100vh;
       padding: 40px 20px 80px;
     }
     .container {
-      max-width: 1200px;
+      max-width: 1240px;
       margin: 0 auto;
     }
     header {
       text-align: center;
       margin-bottom: 48px;
-      padding-bottom: 32px;
-      border-bottom: 1px solid var(--card-border);
     }
     .brand-seal {
       display: inline-flex;
@@ -44,27 +45,29 @@
       gap: 8px;
       padding: 6px 18px;
       background: rgba(212, 154, 61, 0.12);
-      border: 1px solid var(--gold);
+      border: 1px solid var(--card-border);
       border-radius: 999px;
       color: var(--gold-light);
       font-size: 13px;
       font-weight: 700;
-      letter-spacing: 1.5px;
+      letter-spacing: 1px;
       text-transform: uppercase;
       margin-bottom: 16px;
     }
     h1 {
       font-family: 'Playfair Display', Georgia, serif;
-      font-size: clamp(26px, 4vw, 38px);
-      font-weight: 800;
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 700;
       color: #ffffff;
-      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+      margin-bottom: 12px;
     }
-    p.subtitle {
+    .subtitle {
       color: var(--muted);
       font-size: 16px;
-      max-width: 640px;
+      max-width: 680px;
       margin: 0 auto;
+      line-height: 1.5;
     }
     .grid {
       display: grid;
@@ -74,11 +77,11 @@
     .card {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      border-radius: 14px;
+      border-radius: 16px;
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
       transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
     }
     .card:hover {
@@ -125,6 +128,11 @@
       background: rgba(15, 29, 53, 0.9);
       color: #93c5fd;
       border: 1px solid #3b82f6;
+    }
+    .badge-post_individual {
+      background: rgba(15, 29, 53, 0.9);
+      color: #86efac;
+      border: 1px solid #22c55e;
     }
     .card-body {
       padding: 20px;
@@ -194,15 +202,33 @@
     <header>
       <div class="brand-seal">⚖️ Teixeira &amp; Viana Advogados</div>
       <h1>Vitrine de Publicações &amp; Prévias</h1>
-      <p class="subtitle">Criativo AI Studio — Apresentação de conteúdos prontos, prévias interativas e materiais para aprovação no Instagram.</p>
+      <p class="subtitle">Apresentação de conteúdos prontos, prévias interativas e materiais para aprovação no Instagram.</p>
     </header>
 
     <main class="grid">
       
     <article class="card">
       <div class="card-media">
+        <span class="badge badge-carrossel">CÁLCULO BPC / LOAS</span>
+        <img src="saidas/carrosseis/passo-a-passo-calculo-bpc-loas/slide-01.png?v=1794771007469" alt="Como Calcular a Renda Real do Seu BPC/LOAS (Passo a Passo)" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag-format">📑 Carrossel</span>
+          <span class="tag-status">Pronto para Aprovação</span>
+        </div>
+        <h2 class="card-title">Como Calcular a Renda Real do Seu BPC/LOAS (Passo a Passo)</h2>
+        <a class="card-button" href="previas/passo-a-passo-calculo-bpc-loas.html" target="_blank" rel="noopener">
+          Visualizar Prévia Interativa →
+        </a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-media">
         <span class="badge badge-reels">BPC / LOAS IDOSOS</span>
-        <img src="saidas/videos/capa-reels-bpc-01.png?v=1794769360204" alt="Quem Nunca Contribuiu Tem Direito ao BPC/LOAS? Requisitos e Regras" loading="lazy">
+        <img src="saidas/videos/capa-reels-bpc-01.png?v=1794771007469" alt="Quem Nunca Contribuiu Tem Direito ao BPC/LOAS? Requisitos e Regras" loading="lazy">
       </div>
       <div class="card-body">
         <div class="card-meta">
@@ -220,7 +246,7 @@
     <article class="card">
       <div class="card-media">
         <span class="badge badge-reels">ALERTA PREVIDENCIÁRIO</span>
-        <img src="saidas/videos/capa-reels-bpc-02.png?v=1794769360204" alt="As 2 Grandes Desvantagens do BPC/LOAS Que o INSS Não Te Conta" loading="lazy">
+        <img src="saidas/videos/capa-reels-bpc-02.png?v=1794771007469" alt="As 2 Grandes Desvantagens do BPC/LOAS Que o INSS Não Te Conta" loading="lazy">
       </div>
       <div class="card-body">
         <div class="card-meta">
@@ -237,26 +263,8 @@
 
     <article class="card">
       <div class="card-media">
-        <span class="badge badge-reels">PLANEJAMENTO PREVIDENCIÁRIO</span>
-        <img src="saidas/videos/capa-reels-bpc-03.png?v=1794769360204" alt="O Pulo do Gato: Como Transformar BPC em Aposentadoria Definitiva!" loading="lazy">
-      </div>
-      <div class="card-body">
-        <div class="card-meta">
-          <span class="tag-format">🎬 Vídeo Reels</span>
-          <span class="tag-status">Pronto para Aprovação</span>
-        </div>
-        <h2 class="card-title">O Pulo do Gato: Como Transformar BPC em Aposentadoria Definitiva!</h2>
-        <a class="card-button" href="previas/reels-bpc-03.html" target="_blank" rel="noopener">
-          Visualizar Prévia Interativa →
-        </a>
-      </div>
-    </article>
-  
-
-    <article class="card">
-      <div class="card-media">
         <span class="badge badge-reels">INCAPACIDADE PERMANENTE</span>
-        <img src="saidas/videos/capa-reels-bpc-04.png?v=1794769360204" alt="BPC por Doença Pode Virar Aposentadoria por Invalidez? Veja a Regra" loading="lazy">
+        <img src="saidas/videos/capa-reels-bpc-04.png?v=1794771007469" alt="BPC por Doença Pode Virar Aposentadoria por Invalidez? Veja a Regra" loading="lazy">
       </div>
       <div class="card-body">
         <div class="card-meta">
@@ -274,7 +282,7 @@
     <article class="card">
       <div class="card-media">
         <span class="badge badge-reels">MANDADO DE SEGURANÇA</span>
-        <img src="saidas/videos/capa-reels-bpc-05.png?v=1794769360204" alt="INSS Demorando Mais de 60 Dias? Use Mandado de Segurança!" loading="lazy">
+        <img src="saidas/videos/capa-reels-bpc-05.png?v=1794771007469" alt="INSS Demorando Mais de 60 Dias? Use Mandado de Segurança!" loading="lazy">
       </div>
       <div class="card-body">
         <div class="card-meta">
@@ -291,16 +299,16 @@
 
     <article class="card">
       <div class="card-media">
-        <span class="badge badge-carrossel">7 RENDAS BPC</span>
-        <img src="saidas/carrosseis/bpc-loas-7-rendas-que-nao-entram/slide-01.png?v=1794769360204" alt="7 Rendas que o INSS NÃO pode somar no seu BPC/LOAS" loading="lazy">
+        <span class="badge badge-carrossel">PISO MAGISTÉRIO</span>
+        <img src="saidas/carrosseis/piso-salarial-magisterio-servidores/slide-01.png?v=1794771007469" alt="Professores e profissionais da saúde: o Piso Salarial mudou, mas o seu contracheque continuou igual?" loading="lazy">
       </div>
       <div class="card-body">
         <div class="card-meta">
           <span class="tag-format">📑 Carrossel</span>
-          <span class="tag-status">Publicação Pronta / No Feed</span>
+          <span class="tag-status">Pronto para Aprovação</span>
         </div>
-        <h2 class="card-title">7 Rendas que o INSS NÃO pode somar no seu BPC/LOAS</h2>
-        <a class="card-button" href="previas/bpc-loas-7-rendas-que-nao-entram.html" target="_blank" rel="noopener">
+        <h2 class="card-title">Professores e profissionais da saúde: o Piso Salarial mudou, mas o seu contracheque continuou igual?</h2>
+        <a class="card-button" href="previas/piso-salarial-magisterio-servidores.html" target="_blank" rel="noopener">
           Visualizar Prévia Interativa →
         </a>
       </div>
@@ -309,16 +317,106 @@
 
     <article class="card">
       <div class="card-media">
-        <span class="badge badge-carrossel">REVISÃO DE APOSENTADORIA</span>
-        <img src="saidas/carrosseis/carrossel-7-sinais-aposentadoria/slide-01.jpg?v=1794769360204" alt="7 Sinais de que sua Aposentadoria está Errada" loading="lazy">
+        <span class="badge badge-carrossel">TRABALHISTA</span>
+        <img src="saidas/carrosseis/rescisao-indireta-sem-perder-direitos/slide-01.png?v=1794771007469" alt="Rescisão Indireta: Sair do Emprego Sem Perder Direitos" loading="lazy">
       </div>
       <div class="card-body">
         <div class="card-meta">
           <span class="tag-format">📑 Carrossel</span>
-          <span class="tag-status">Publicação Pronta / No Feed</span>
+          <span class="tag-status">Pronto para Aprovação</span>
         </div>
-        <h2 class="card-title">7 Sinais de que sua Aposentadoria está Errada</h2>
-        <a class="card-button" href="previas/carrossel-7-sinais-aposentadoria.html" target="_blank" rel="noopener">
+        <h2 class="card-title">Rescisão Indireta: Sair do Emprego Sem Perder Direitos</h2>
+        <a class="card-button" href="previas/rescisao-indireta-sem-perder-direitos.html" target="_blank" rel="noopener">
+          Visualizar Prévia Interativa →
+        </a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-media">
+        <span class="badge badge-carrossel">APOSENTADORIA ESPECIAL</span>
+        <img src="saidas/carrosseis/empresa-fechou-sem-ppp-aposentadoria/slide-01.png?v=1794771007469" alt="A Empresa Fechou e Não Entregou o PPP? Você NÃO Perdeu a Aposentadoria Especial" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag-format">📑 Carrossel</span>
+          <span class="tag-status">Pronto para Aprovação</span>
+        </div>
+        <h2 class="card-title">A Empresa Fechou e Não Entregou o PPP? Você NÃO Perdeu a Aposentadoria Especial</h2>
+        <a class="card-button" href="previas/empresa-fechou-sem-ppp-aposentadoria.html" target="_blank" rel="noopener">
+          Visualizar Prévia Interativa →
+        </a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-media">
+        <span class="badge badge-carrossel">ADICIONAL DE 25%</span>
+        <img src="saidas/carrosseis/adicional-25-inss-cuidador-aposentado/slide-01.png?v=1794771007469" alt="Seu Familiar Aposentado Precisa de Cuidador? O INSS Deve Pagar +25% Todo Mês" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag-format">📑 Carrossel</span>
+          <span class="tag-status">Pronto para Aprovação</span>
+        </div>
+        <h2 class="card-title">Seu Familiar Aposentado Precisa de Cuidador? O INSS Deve Pagar +25% Todo Mês</h2>
+        <a class="card-button" href="previas/adicional-25-inss-cuidador-aposentado.html" target="_blank" rel="noopener">
+          Visualizar Prévia Interativa →
+        </a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-media">
+        <span class="badge badge-carrossel">REVISÃO 10 ANOS</span>
+        <img src="saidas/carrosseis/revisao-aposentadoria-10-anos/slide-01.png?v=1794771007469" alt="Aposentou nos Últimos 10 Anos? 3 Erros do INSS que Podem Aumentar Seu Benefício" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag-format">📑 Carrossel</span>
+          <span class="tag-status">Pronto para Aprovação</span>
+        </div>
+        <h2 class="card-title">Aposentou nos Últimos 10 Anos? 3 Erros do INSS que Podem Aumentar Seu Benefício</h2>
+        <a class="card-button" href="previas/revisao-aposentadoria-10-anos.html" target="_blank" rel="noopener">
+          Visualizar Prévia Interativa →
+        </a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-media">
+        <span class="badge badge-carrossel">AFASTAMENTO INSS</span>
+        <img src="saidas/carrosseis/afastamento-inss-conta-aposentadoria/slide-01.png?v=1794771007469" alt="Ficou Afastado Pelo INSS? Esse Período Pode Adiantar a Sua Aposentadoria" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag-format">📑 Carrossel</span>
+          <span class="tag-status">Pronto para Aprovação</span>
+        </div>
+        <h2 class="card-title">Ficou Afastado Pelo INSS? Esse Período Pode Adiantar a Sua Aposentadoria</h2>
+        <a class="card-button" href="previas/afastamento-inss-conta-aposentadoria.html" target="_blank" rel="noopener">
+          Visualizar Prévia Interativa →
+        </a>
+      </div>
+    </article>
+  
+
+    <article class="card">
+      <div class="card-media">
+        <span class="badge badge-post_individual">PLANEJAMENTO</span>
+        <img src="saidas/posts-individuais/planejamento-previdenciario-erro-mais-caro/slide-01.jpg?v=1794771007469" alt="Trabalhou a vida toda? O erro mais caro é se aposentar sem planejar" loading="lazy">
+      </div>
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="tag-format">📑 Carrossel</span>
+          <span class="tag-status">Pronto para Aprovação</span>
+        </div>
+        <h2 class="card-title">Trabalhou a vida toda? O erro mais caro é se aposentar sem planejar</h2>
+        <a class="card-button" href="previas/planejamento-previdenciario-erro-mais-caro.html" target="_blank" rel="noopener">
           Visualizar Prévia Interativa →
         </a>
       </div>
@@ -327,7 +425,7 @@
     </main>
 
     <footer>
-      <p>© 2026 Teixeira &amp; Viana Advogados • @teixeiraeviana.adv • O Mérito Podcast</p>
+      <p>© 2026 Teixeira &amp; Viana Advogados • @teixeiraeviana.adv</p>
     </footer>
   </div>
 </body>
