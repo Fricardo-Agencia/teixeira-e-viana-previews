@@ -1,201 +1,48 @@
 {
-  "atualizadoEm": "2026-11-18T13:32:27.654Z",
-  "total": 12,
+  "atualizadoEm": "2026-11-18T13:47:38.401Z",
+  "total": 3,
   "itens": [
     {
-      "codigo": "CARROSSEL-003",
-      "slug": "piso-salarial-magisterio-servidores",
-      "titulo": "Professores e profissionais da saúde: o Piso Salarial mudou, mas o seu contracheque continuou igual?",
-      "tipo": "carrossel",
-      "status": "pronto_para_aprovar",
+      "codigo": "REELS-015",
+      "slug": "reels-bpc-01",
+      "titulo": "Quem Nunca Contribuiu Tem Direito ao BPC/LOAS? Requisitos e Regras",
+      "tipo": "reels",
+      "status": "pronto_para_aprovacao",
       "urlsPublicas": [
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/piso-salarial-magisterio-servidores/slide-01.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/piso-salarial-magisterio-servidores/slide-02.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/piso-salarial-magisterio-servidores/slide-03.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/piso-salarial-magisterio-servidores/slide-04.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/piso-salarial-magisterio-servidores/slide-05.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/piso-salarial-magisterio-servidores/slide-06.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/piso-salarial-magisterio-servidores/slide-07.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/piso-salarial-magisterio-servidores/slide-08.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/piso-salarial-magisterio-servidores/slide-09.png"
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/videos/capa-reels-bpc-01.png",
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/videos/reels-bpc-01/video.mp4"
       ],
-      "legenda": "Você é professor da educação básica ou profissional da saúde na rede pública e tem a impressão de que o Piso Nacional foi reajustado pelo Governo Federal, mas o seu contracheque continuou praticamente congelado? 🏛️📉\n\nEssa distorção não é mera impressão: é uma prática reiterada de inúmeros municípios e estados em todo o Brasil que vem sendo sucessivamente corrigida pelos Tribunais de Justiça e pelo STF.\n\n⚖️ O QUE O STF JÁ DECIDIU:\nA Lei Federal nº 11.738/2008 é de aplicação obrigatória em todo o país. O Supremo Tribunal Federal fixou, com repercussão geral, que o Piso Salarial Nacional é o VENCIMENTO BÁSICO inicial da carreira — e não a soma do salário com gratificações, triênios ou abonos.\n\n⚠️ O GOLPE DO \"ABONO COMPLEMENTAR\":\nPara não reajustar a carreira inteira, muitos governos criam um abono complementar provisório apenas para quem ganha menos, congelando o plano de cargos (PCCR). O resultado é desastroso:\n1️⃣ Servidores com 15 ou 20 anos de magistério passam a receber o mesmo valor de quem acabou de entrar (o chamado efeito achatamento).\n2️⃣ As gratificações de titulação (Pós, Mestrado e Doutorado) ficam calculadas sobre uma base defasada.\n3️⃣ Triênios e quinquênios deixam de acompanhar a evolução real que a lei garante.\n\n🩺 EXTENSÃO AOS PROFISSIONAIS DA SAÚDE:\nA mesma violação atinge a enfermagem (Lei 14.434/2022), onde repasses federais complementares são retidos, submetidos a descontos indevidos ou excluídos da base das horas extras e plantões.\n\n💰 QUANTO VOCÊ PODE RECEBER DE ATRASADOS?\nServidores públicos têm o direito de cobrar retroativamente as diferenças dos últimos 5 anos (60 meses), com reflexos integrais no 13º salário, terço constitucional de férias e vantagens temporais, tudo corrigido monetariamente com juros de mora. Na prática pericial, os valores acumulados variam de R$ 25.000 a mais de R$ 90.000 por servidor.\n\n⏳ CUIDADO COM A PRESCRIÇÃO:\nAs dívidas da Fazenda Pública prescrevem mês a mês. Cada mês sem analisar o contracheque é um mês de atrasados que prescreve definitivamente.\n\n📲 QUER SABER O VALOR EXATO QUE SEU CONTRACHEQUE TEM A RECEBER?\nComente a palavra \"PISO\" aqui nos comentários ou envie uma mensagem direta no nosso Direct @teixeiraeviana.adv para que nossa equipe pericial realize uma simulação detalhada da sua carreira e dos seus atrasados.\n\n⚖️ Atendimento especializado para servidores municipais, estaduais e federais em todo o Brasil com sigilo absoluto.\n\n---\n#PisoDoMagisterio #Professores #ProfessoresRJ #DireitoDoServidor #ServidorPublico #PisoDaEnfermagem #Enfermagem #Mestrado #Doutorado #RevisaoSalarial #AposentadoriaDoServidor #TeixeiraEVianaAdvogados #DrEdmarTeixeira",
-      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/piso-salarial-magisterio-servidores.html",
-      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/piso-salarial-magisterio-servidores/slide-01.png"
+      "legenda": "⚖️ QUEM NUNCA CONTRIBUIU TEM DIREITO AO BPC/LOAS? Veja a regra do INSS!\n\nSua mãe, avó ou algum familiar tem mais de 65 anos e NUNCA pagou o INSS? Saiba que a lei garante o direito de receber 1 salário mínimo mensal através do Benefício de Prestação Continuada (BPC/LOAS)!\n\nO BPC é um benefício assistencial previsto na Lei Orgânica da Assistência Social (Lei nº 8.742/93) e NÃO exige nenhuma contribuição prévia à Previdência.\n\n📌 Principais Requisitos para Concessão:\n1️⃣ Idade mínima de 65 anos (para homens ou mulheres) OU pessoa com deficiência de qualquer idade;\n2️⃣ Renda familiar por pessoa de até 1/4 do salário mínimo (na Justiça, gastos comprovados com remédios, fraldas e tratamentos podem ser descontados para alcançar o critério);\n3️⃣ Inscrição ativa e atualizada no CadÚnico (Cadastro Único do CRAS).\n\n💡 No episódio 13 do podcast jurídico \"O Mérito\", o Dr. Edmar Teixeira e o Dr. Matheus explicam passo a passo como dar entrada de forma correta e evitar indeferimentos no INSS.\n\n💬 Você tem algum familiar nessa situação? Deixe sua dúvida nos comentários ou fale com nossa equipe especializada no link da bio!\n\n---\n#BPCLOAS #BPC #LOAS #QuemNuncaContribuiu #INSS #DireitoPrevidenciario #Aposentadoria #Idoso65Anos #CadUnico #BeneficioAssistencial #TeixeiraEVianaAdvogados #AdvocaciaPrevidenciaria #OMerito",
+      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/reels-bpc-01.html",
+      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/videos/capa-reels-bpc-01.png"
     },
     {
-      "codigo": "CARROSSEL-004",
-      "slug": "rescisao-indireta-sem-perder-direitos",
-      "titulo": "Rescisão Indireta: Sair do Emprego Sem Perder Direitos",
-      "tipo": "carrossel",
-      "status": "pronto_para_aprovar",
+      "codigo": "REELS-016",
+      "slug": "reels-bpc-02",
+      "titulo": "As 2 Grandes Desvantagens do BPC/LOAS Que o INSS Não Te Conta",
+      "tipo": "reels",
+      "status": "pronto_para_aprovacao",
       "urlsPublicas": [
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/rescisao-indireta-sem-perder-direitos/slide-01.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/rescisao-indireta-sem-perder-direitos/slide-02.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/rescisao-indireta-sem-perder-direitos/slide-03.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/rescisao-indireta-sem-perder-direitos/slide-04.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/rescisao-indireta-sem-perder-direitos/slide-05.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/rescisao-indireta-sem-perder-direitos/slide-06.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/rescisao-indireta-sem-perder-direitos/slide-07.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/rescisao-indireta-sem-perder-direitos/slide-08.png"
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/videos/capa-reels-bpc-02.png",
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/videos/reels-bpc-02/video.mp4"
       ],
-      "legenda": "Você está enfrentando um ambiente insustentável no trabalho, atrasos recorrentes de pagamento ou falta de depósito de FGTS e pensa em pedir demissão para se livrar do problema? 🛑 NÃO FAÇA ISSO antes de ler este alerta!\n\nQuando você pede demissão por desespero, quem ganha é a empresa inadimplente — e quem perde anos de dedicação e muito dinheiro é você:\n❌ Você perde a multa rescisória de 40% do FGTS;\n❌ O seu saldo acumulado do FGTS fica travado na Caixa;\n❌ Você não tem direito a receber nenhuma parcela do Seguro-Desemprego.\n\n⚖️ A SAÍDA LEGAL: RESCISÃO INDIRETA (CLT, ART. 483)\nAssim como o patrão pode demitir o funcionário por justa causa quando ele comete falta grave, a CLT confere ao trabalhador exatamente o mesmo poder: aplicar a justa causa contra a empresa!\n\n🚨 SITUAÇÕES QUE AUTORIZAM A RESCISÃO INDIRETA:\n1️⃣ FGTS sem recolhimento: O TST pacificou que a ausência de depósitos regulares é falta grave patronal imediata.\n2️⃣ Salários atrasados ou comissões \"por fora\": Descumprimento frontal do contrato de trabalho.\n3️⃣ Assédio moral e humilhações: Cobranças abusivas, perseguição e constrangimento público diante dos colegas.\n4️⃣ Perigo manifesto ou desvio de função: Risco à integridade física sem EPI ou imposição de atividades além do contratado.\n\n🛡️ \"PRECISO CONTINUAR TRABALHANDO LÁ ENQUANTO A AÇÃO CORRE?\"\nNÃO! O artigo 483, § 3º da CLT garante que você pode se afastar imediatamente das suas atividades no momento do ingresso da ação, sem risco de ser acusado de abandono de emprego ou justa causa patronal.\n\n💰 O QUE VOCÊ RECEBE NA SUA CONTA:\nVocê sai com 100% de todas as verbas de uma demissão sem justa causa: aviso prévio indenizado, saldo de salário, 13º e férias proporcionais (+1/3), saque integral do FGTS com acréscimo da multa rescisória de 40% e as guias para dar entrada no seguro-desemprego.\n\n📲 COMO SABER SE O SEU CASO DÁ RESCISÃO INDIRETA:\nEnvie a palavra \"RESCISÃO\" no nosso Direct @teixeiraeviana.adv para que nossa equipe especialista analise sua situação de forma confidencial e individualizada.\n\n⚖️ Teixeira & Viana Advogados — Defesa intransigente dos direitos do trabalhador em todo o Brasil.\n\n---\n#RescisaoIndireta #DireitoDoTrabalho #Trabalhador #JustaCausaPatronal #FGTS #AssedioMoral #SeguroDesemprego #Multa40FGTS #AdvogadoTrabalhista #TeixeiraEVianaAdvogados #DrMatheusViana",
-      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/rescisao-indireta-sem-perder-direitos.html",
-      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/rescisao-indireta-sem-perder-direitos/slide-01.png"
+      "legenda": "⚠️ AS 2 GRANDES DESVANTAGENS DO BPC/LOAS que o INSS não te conta!\n\nMuita gente comemora quando o BPC é concedido achando que é uma aposentadoria comum. Mas o BPC/LOAS é um benefício ASSISTENCIAL e traz duas limitações sérias que você precisa conhecer:\n\n❌ 1ª Desvantagem: NÃO paga 13º Salário. Em dezembro, quem recebe BPC recebe apenas a parcela normal do mês, sem nenhum abono natalino;\n❌ 2ª Desvantagem: NÃO deixa Pensão por Morte. Se o titular do BPC falecer, o benefício cessa imediatamente e seus familiares (cônjuge ou filhos) não têm direito a continuar recebendo a renda.\n\nAlém disso, o BPC passa por revisões cadastrais a cada 2 anos no CadÚnico do Governo Federal.\n\n💡 O Dr. Edmar Teixeira e o Dr. Matheus revelam no programa \"O Mérito\": existe uma estratégia legal para quem já contribuiu no passado transformar essa realidade!\n\n📲 Salve esse post para não esquecer e compartilhe com quem recebe ou está pedindo o BPC!\n\n---\n#DesvantagensDoBPC #BPCLOAS #BPC #LOAS #DecimoTerceiroBPC #PensaoPorMorte #DireitoPrevidenciario #INSS #Aposentadoria #AdvogadoPrevidenciario #TeixeiraEVianaAdvogados #OMerito",
+      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/reels-bpc-02.html",
+      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/videos/capa-reels-bpc-02.png"
     },
     {
-      "codigo": "CARROSSEL-006",
-      "slug": "empresa-fechou-sem-ppp-aposentadoria",
-      "titulo": "A Empresa Fechou e Não Entregou o PPP? Você NÃO Perdeu a Aposentadoria Especial",
-      "tipo": "carrossel",
-      "status": "pronto_para_aprovar",
+      "codigo": "REELS-019",
+      "slug": "reels-bpc-05",
+      "titulo": "INSS Demorando Mais de 60 Dias? Use Mandado de Segurança!",
+      "tipo": "reels",
+      "status": "pronto_para_aprovacao",
       "urlsPublicas": [
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/empresa-fechou-sem-ppp-aposentadoria/slide-01.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/empresa-fechou-sem-ppp-aposentadoria/slide-02.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/empresa-fechou-sem-ppp-aposentadoria/slide-03.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/empresa-fechou-sem-ppp-aposentadoria/slide-04.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/empresa-fechou-sem-ppp-aposentadoria/slide-05.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/empresa-fechou-sem-ppp-aposentadoria/slide-06.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/empresa-fechou-sem-ppp-aposentadoria/slide-07.png"
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/videos/capa-reels-bpc-05.png",
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/videos/reels-bpc-05/video.mp4"
       ],
-      "legenda": "A empresa onde você trabalhou faliu, encerrou as atividades ou sumiu sem te entregar o PPP (Perfil Profissiográfico Previdenciário)? 🛑 Muitos trabalhadores acreditam que perderam o direito à Aposentadoria Especial por causa disso — mas essa informação NÃO procede!\n\nSe você trabalhou exposto a ruído excessivo de máquinas, agentes químicos, solventes, hidrocarbonetos, calor de caldeiras ou risco permanente à integridade física, esse tempo continua sendo especial por lei!\n\n❌ O QUE O INSS FAZ NO BALCÃO:\nO analista do INSS simplesmente indefere o pedido ou conta seus 10 ou 15 anos como \"tempo comum\", forçando você a trabalhar anos a mais ou reduzindo seu benefício em até 40%. Essa postura é estritamente burocrática e não se sustenta perante o Poder Judiciário.\n\n⚖️ AS 2 SAÍDAS LEGAIS QUE A JUSTIÇA FEDERAL GARANTE:\n\n1️⃣ LAUDO DE EMPRESA SIMILAR OU PARADIGMA:\nA jurisprudência consolidada do STJ e dos Tribunais Regionais Federais (TRFs) autoriza o uso de laudos periciais e LTCATs de empresas do mesmo ramo de atividade, porte e condições de operação semelhantes. O risco da profissão é o mesmo, independente da empresa ter fechado.\n\n2️⃣ PROVA TESTEMUNHAL E DOCUMENTOS DE ÉPOCA:\nContracheques antigos comprovando adicional de insalubridade/periculosidade, anotações de função na Carteira de Trabalho (CTPS) e depoimentos judiciais de ex-colegas comprovam a verdade real do seu trabalho.\n\n💰 O IMPACTO NA SUA VIDA:\nGarantir o reconhecimento do período especial pode antecipar a sua aposentadoria em até 10 anos e garantir o recebimento de todas as parcelas retroativas corrigidas com juros desde o primeiro requerimento.\n\nComo sempre reforçamos na nossa banca: \"O direito não socorre aos que dormem!\" Não aceite uma negativa injusta.\n\n📲 QUER SABER COMO COMPROVAR O SEU CASO?\nComente a palavra \"PPP\" aqui nos comentários ou envie uma mensagem direta no nosso Direct @teixeiraeviana.adv para que nossa equipe pericial analise a sua Carteira de Trabalho e o histórico da sua empresa.\n\n---\n#AposentadoriaEspecial #PPP #EmpresaFechou #TempoEspecial #INSS #DireitoPrevidenciario #Insalubridade #Petroleiros #Industria #Macaé #CamposDosGoytacazes #TeixeiraEVianaAdvogados #DrMatheusViana",
-      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/empresa-fechou-sem-ppp-aposentadoria.html",
-      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/empresa-fechou-sem-ppp-aposentadoria/slide-01.png"
-    },
-    {
-      "codigo": "CARROSSEL-008",
-      "slug": "adicional-25-inss-cuidador-aposentado",
-      "titulo": "Seu Familiar Aposentado Precisa de Cuidador? O INSS Deve Pagar +25% Todo Mês",
-      "tipo": "carrossel",
-      "status": "pronto_para_aprovar",
-      "urlsPublicas": [
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/adicional-25-inss-cuidador-aposentado/slide-01.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/adicional-25-inss-cuidador-aposentado/slide-02.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/adicional-25-inss-cuidador-aposentado/slide-03.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/adicional-25-inss-cuidador-aposentado/slide-04.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/adicional-25-inss-cuidador-aposentado/slide-05.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/adicional-25-inss-cuidador-aposentado/slide-06.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/adicional-25-inss-cuidador-aposentado/slide-07.png"
-      ],
-      "legenda": "Você tem um pai, mãe, cônjuge ou familiar aposentado que sofreu um AVC, foi diagnosticado com Alzheimer, perdeu a visão ou necessita da ajuda constante de outra pessoa para as tarefas básicas do dia a dia? 🩺🤍\n\nCuidar de quem amamos exige dedicação imensa e gera um custo financeiro pesado com remédios, fraldas, fisioterapia e cuidadores. O que muitas famílias desconhecem é que a Lei de Benefícios da Previdência Social (Art. 45 da Lei nº 8.213/91) garante um acréscimo permanente de 25% no valor mensal da aposentadoria!\n\n💡 O QUE É O ADICIONAL DE 25%?\nTrata-se de um valor extra pago pelo INSS todo mês destinado a custear a assistência permanente de terceiros.\n\n📌 3 REGRAS FUNDAMENTAIS QUE VOCÊ PRECISA SABER:\n\n1️⃣ PODE ULTRAPASSAR O TETO DO INSS:\nEssa é uma das raras exceções da previdência em que o valor do benefício pode ultrapassar o teto máximo nacional! Quem recebe o teto passa a receber o teto + 25%.\n\n2️⃣ NÃO IMPORTA QUEM É O CUIDADOR:\nO acompanhante não precisa ser um enfermeiro contratado. Pode ser o próprio filho, filha ou cônjuge que abdicou da sua rotina profissional para cuidar do idoso em casa.\n\n3️⃣ REFLEXO NO 13º SALÁRIO:\nO acréscimo de 25% é permanente e incide diretamente sobre a gratificação natalina de final de ano.\n\n📋 QUAIS CONDIÇÕES DÃO DIREITO?\nSequelas graves de AVC (hemiplegia), cegueira total, paralisia de membros, alterações mentais severas com perda de autonomia, Parkinson em estágio avançado e qualquer patologia que impeça o aposentado de tomar banho, alimentar-se ou vestir-se sozinho.\n\n⚠️ SE O INSS NEGOU NO BALCÃO:\nNão aceite uma negativa superficial. Na Justiça Federal, a perícia médica é realizada por médico especialista imparcial, com possibilidade de perícia domiciliar se o paciente estiver acamado.\n\n\"O direito não socorre aos que dormem!\" Amparar a dignidade de quem construiu a vida inteira é dever de todos nós.\n\n📲 QUER SABER SE O SEU FAMILIAR TEM DIREITO?\nComente a palavra \"CUIDADOR\" aqui nos comentários ou envie uma mensagem direta no nosso Direct @teixeiraeviana.adv para que nossa equipe acolha e avalie o seu caso sob sigilo absoluto.\n\n---\n#Adicional25INSS #INSS #Aposentadoria #DireitoPrevidenciario #CuidadorDeIdosos #AVC #Alzheimer #AposentadoriaPorInvalidez #Familia #CamposDosGoytacazes #TeixeiraEVianaAdvogados #DrEdmarTeixeira",
-      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/adicional-25-inss-cuidador-aposentado.html",
-      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/adicional-25-inss-cuidador-aposentado/slide-01.png"
-    },
-    {
-      "codigo": "CARROSSEL-009",
-      "slug": "revisao-aposentadoria-10-anos",
-      "titulo": "Aposentou nos Últimos 10 Anos? 3 Erros do INSS que Podem Aumentar Seu Benefício",
-      "tipo": "carrossel",
-      "status": "pronto_para_aprovar",
-      "urlsPublicas": [
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/revisao-aposentadoria-10-anos/slide-01.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/revisao-aposentadoria-10-anos/slide-02.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/revisao-aposentadoria-10-anos/slide-03.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/revisao-aposentadoria-10-anos/slide-04.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/revisao-aposentadoria-10-anos/slide-05.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/revisao-aposentadoria-10-anos/slide-06.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/revisao-aposentadoria-10-anos/slide-07.png"
-      ],
-      "legenda": "Você se aposentou pelo INSS nos últimos 10 anos? ⏳\n\nMilhares de aposentados recebem todo mês um benefício bem menor do que realmente construíram ao longo de décadas de trabalho duro.\n\nPor que isso acontece? O sistema automatizado do INSS não é perito — ele é programado para conceder o benefício mais rápido, desconsiderando particularidades valiosas do seu histórico de trabalho.\n\n📌 OS 3 ERROS MAIS GRAVES QUE ENCONTRAMOS NAS REVISÕES:\n\n1️⃣ PERÍODOS E SALÁRIOS IGNORADOS NO CNIS:\nVínculos de empresas antigas sem data de saída anotada (indicador PEXT) são descartados sumariamente pelo INSS. Contribuições antigas são rebaixadas ao salário mínimo quando faltam dados na base informatizada.\n\n2️⃣ TEMPO ESPECIAL SEM CONVERSÃO EM TEMPO COMUM:\nQuem trabalhou exposto a ruído, calor, agentes biológicos ou periculosidade (como petroleiros, offshore, área da saúde, metalúrgicos, motoristas e químicos) tem direito a converter esse tempo com acréscimo multiplicador de 40% (homens) e 20% (mulheres) para períodos anteriores a novembro de 2019! O INSS raramente faz essa conversão de ofício.\n\n3️⃣ APLICAÇÃO DA REGRA MENOS VANTAJOSA:\nO STF já consolidou que o segurado tem direito ao melhor benefício. Muitas vezes, uma regra de transição com pedágio ou o descarte inteligente de menores salários garante uma aposentadoria substancialmente maior.\n\n💰 O RETORNO FINANCEIRO DA REVISÃO:\nAlém de elevar o valor do seu benefício para o resto da vida (com reflexos no 13º salário e pensão por morte), o segurado tem o direito de receber toda a diferença acumulada dos últimos 5 anos (60 meses) corrigida de uma só vez via RPV ou Precatório Judicial.\n\n⚠️ ATENÇÃO AO PRAZO DECADENCIAL:\nO prazo para pedir a revisão expira exatamente 10 anos após o primeiro pagamento. Cada mês de espera é um mês de atrasados que prescreve perante a lei. \"O direito não socorre aos que dormem!\"\n\n📲 QUER SABER SE SUA APOSENTADORIA FOI CALCULADA CORRETAMENTE?\nComente a palavra \"REVISAO\" aqui nos comentários ou envie uma mensagem direta no nosso perfil @teixeiraeviana.adv para que nossa equipe pericial acolha e analise sua Carta de Concessão.\n\n---\n#RevisaoAposentadoria #INSS #Aposentadoria #DireitoPrevidenciario #CalculoPrevidenciario #Decadencia10Anos #CNIS #TempoEspecial #CamposDosGoytacazes #TeixeiraEVianaAdvogados #DrEdmarTeixeira",
-      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/revisao-aposentadoria-10-anos.html",
-      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/revisao-aposentadoria-10-anos/slide-01.png"
-    },
-    {
-      "codigo": "CARROSSEL-010",
-      "slug": "afastamento-inss-conta-aposentadoria",
-      "titulo": "Ficou Afastado Pelo INSS? Esse Período Pode Adiantar a Sua Aposentadoria",
-      "tipo": "carrossel",
-      "status": "pronto_para_aprovar",
-      "urlsPublicas": [
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/afastamento-inss-conta-aposentadoria/slide-01.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/afastamento-inss-conta-aposentadoria/slide-02.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/afastamento-inss-conta-aposentadoria/slide-03.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/afastamento-inss-conta-aposentadoria/slide-04.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/afastamento-inss-conta-aposentadoria/slide-05.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/afastamento-inss-conta-aposentadoria/slide-06.png",
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/afastamento-inss-conta-aposentadoria/slide-07.png"
-      ],
-      "legenda": "Você já precisou se afastar do trabalho recebendo auxílio-doença pelo INSS? ⏳\n\nMuitos segurados não sabem, mas esse período de afastamento por incapacidade temporária PODE SIM ser computado como tempo de contribuição e carência para a sua aposentadoria!\n\n⚠️ O PROBLEMA DO 'BURACO' NO CNIS:\nQuando você puxa o seu extrato no Meu INSS, é comum que o período de benefício apareça em branco ou marcado com pendências cadastrais. O robô do INSS simplesmente descarta esses meses, obrigando você a trabalhar de 1 a 3 anos a mais do que a lei exige!\n\n📌 COMO FUNCIONA A REGRA DO PERÍODO INTERCALADO (STF TEMA 1.125):\nO Supremo Tribunal Federal já consolidou a regra:\n1️⃣ Você deve ter uma contribuição anterior ao afastamento (já ter qualidade de segurado).\n2️⃣ Durante a incapacidade médica, você recebe o auxílio da Previdência.\n3️⃣ Logo após a alta médica, você precisa retornar à atividade OU realizar pelo menos uma contribuição facultativa/avulsa no mês seguinte!\n\nHavendo contribuição antes e depois, TODO o período em que esteve doente é validado como tempo de contribuição e carência para antecipar a sua aposentadoria!\n\n⚖️ AUXÍLIO ACIDENTÁRIO (B91) vs COMUM (B31):\nSe o seu afastamento decorreu de acidente de trabalho ou doença provocada pela rotina profissional (B91), o tempo conta SEMPRE, com FGTS obrigatório e estabilidade de 12 meses. Se a empresa te enquadrou em B31 sem abrir a CAT, é possível pedir a conversão judicial!\n\n\"O direito não socorre aos que dormem!\" Antecipe o seu planejamento e não deixe o INSS descartar anos do seu esforço.\n\n📲 QUER SABER SE O SEU TEMPO DE AFASTAMENTO JÁ ESTÁ CONTANDO?\nComente a palavra \"AFASTAMENTO\" aqui nos comentários ou envie uma mensagem direta no nosso Direct @teixeiraeviana.adv para que nossa equipe acolha e avalie o seu CNIS.\n\n---\n#AfastamentoINSS #AuxilioDoenca #INSS #Aposentadoria #DireitoPrevidenciario #PeriodoIntercalado #CNIS #AdvocaciaPrevidenciaria #CamposDosGoytacazes #TeixeiraEVianaAdvogados #DrMatheusViana",
-      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/afastamento-inss-conta-aposentadoria.html",
-      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/afastamento-inss-conta-aposentadoria/slide-01.png"
-    },
-    {
-      "codigo": "POST-001",
-      "slug": "planejamento-previdenciario-erro-mais-caro",
-      "titulo": "Trabalhou a vida toda? O erro mais caro é se aposentar sem planejar",
-      "tipo": "post_individual",
-      "status": "pronto_para_aprovar",
-      "urlsPublicas": [
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/posts-individuais/planejamento-previdenciario-erro-mais-caro/slide-01.jpg"
-      ],
-      "legenda": "Trabalhou a vida inteira e está perto de se aposentar?\n\nO erro mais comum (e caro) cometido por servidores públicos e trabalhadores é assinar a aposentadoria sem um planejamento prévio.\n\nMuitas vezes, aceitar o primeiro cálculo do INSS ou do regime próprio significa deixar de ganhar centenas de milhares de reais ao longo da vida em revisões, adicionais de tempo especial ou progressões de carreira.\n\nNo Teixeira & Viana Advogados, analisamos cada detalhe do seu histórico de trabalho para garantir que você conquiste o valor máximo que tem direito, com total transparência e sem juridiquês.\n\n💡 Quer saber se você está no momento certo de se aposentar com o maior benefício possível?\n\n📲 Envie uma mensagem privada no Direct ou clique no link da bio para uma análise inicial do seu caso.\n\n---\n#DireitoPrevidenciario #PlanejamentoPrevidenciario #ServidorPublico #AposentadoriaSegura #TeixeiraEVianaAdvogados #CamposDosGoytacazes",
-      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/planejamento-previdenciario-erro-mais-caro.html",
-      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/posts-individuais/planejamento-previdenciario-erro-mais-caro/slide-01.jpg"
-    },
-    {
-      "codigo": "STORY-002",
-      "slug": "story-erro-contracheque-servidor-publico",
-      "titulo": "Story: Erro no Contracheque do Servidor Público",
-      "tipo": "story",
-      "status": "pronto_para_aprovar",
-      "urlsPublicas": [
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/stories/erro-contracheque-servidor-publico/story-01.png"
-      ],
-      "legenda": "Story de engajamento no Instagram para o tema: Story: Erro no Contracheque do Servidor Público",
-      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/story-erro-contracheque-servidor-publico.html",
-      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/stories/erro-contracheque-servidor-publico/story-01.png"
-    },
-    {
-      "codigo": "STORY-003",
-      "slug": "story-planejamento-previdenciario-erro-mais-caro",
-      "titulo": "Story: O Erro Mais Caro é se Aposentar Sem Planejar",
-      "tipo": "story",
-      "status": "pronto_para_aprovar",
-      "urlsPublicas": [
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/stories/planejamento-previdenciario-erro-mais-caro/story-01.png"
-      ],
-      "legenda": "Story de engajamento no Instagram para o tema: Story: O Erro Mais Caro é se Aposentar Sem Planejar",
-      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/story-planejamento-previdenciario-erro-mais-caro.html",
-      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/stories/planejamento-previdenciario-erro-mais-caro/story-01.png"
-    },
-    {
-      "codigo": "STORY-004",
-      "slug": "story-direitos-trabalhistas-offshore-insalubridade",
-      "titulo": "Story: Insalubridade Offshore & Direitos em Alto-Mar",
-      "tipo": "story",
-      "status": "pronto_para_aprovar",
-      "urlsPublicas": [
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/stories/direitos-trabalhistas-offshore-insalubridade/story-01.png"
-      ],
-      "legenda": "Story de engajamento no Instagram para o tema: Story: Insalubridade Offshore & Direitos em Alto-Mar",
-      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/story-direitos-trabalhistas-offshore-insalubridade.html",
-      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/stories/direitos-trabalhistas-offshore-insalubridade/story-01.png"
-    },
-    {
-      "codigo": "STORY-005",
-      "slug": "story-piso-salarial-magisterio-servidores",
-      "titulo": "Story: Piso Salarial do Magistério & Servidores da Saúde",
-      "tipo": "story",
-      "status": "pronto_para_aprovar",
-      "urlsPublicas": [
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/stories/piso-salarial-magisterio-servidores/story-01.png"
-      ],
-      "legenda": "Story de engajamento no Instagram para o tema: Story: Piso Salarial do Magistério & Servidores da Saúde",
-      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/story-piso-salarial-magisterio-servidores.html",
-      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/stories/piso-salarial-magisterio-servidores/story-01.png"
-    },
-    {
-      "codigo": "STORY-006",
-      "slug": "story-rescisao-indireta-sem-perder-direitos",
-      "titulo": "Story: Rescisão Indireta Sem Perder Direitos",
-      "tipo": "story",
-      "status": "pronto_para_aprovar",
-      "urlsPublicas": [
-        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/stories/rescisao-indireta-sem-perder-direitos/story-01.png"
-      ],
-      "legenda": "Story de engajamento no Instagram para o tema: Story: Rescisão Indireta Sem Perder Direitos",
-      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/story-rescisao-indireta-sem-perder-direitos.html",
-      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/stories/rescisao-indireta-sem-perder-direitos/story-01.png"
+      "legenda": "⏱️ PEDIDO TRAVADO NO INSS HÁ MAIS DE 60 DIAS? Veja como destravar na Justiça!\n\nVocê deu entrada no seu BPC/LOAS ou pedido de Aposentadoria e ele está há meses com status \"Em Análise\" no Meu INSS sem nenhuma resposta?\n\nSaiba que a lei estabelece prazos que o órgão é obrigado a cumprir:\n⚖️ A Lei do Processo Administrativo Federal (Lei nº 9.784/99) e os acordos homologados no STF determinam prazos entre 30 a 90 dias para a decisão conclusiva.\n\nQuando o INSS ultrapassa esse prazo sem justificativa razoável:\n🚨 Cabe uma ação judicial de MANDADO DE SEGURANÇA com pedido de liminar na Justiça Federal!\nO juiz intima a chefia da agência do INSS a analisar e proferir o julgamento do seu pedido imediatamente, sob pena de crime de desobediência e aplicação de multa diária.\n\nNão é furar fila: é fazer valer o seu direito constitucional à razoável duração do processo!\n\n💬 Há quanto tempo o seu pedido está esperando análise no Meu INSS? Conte aqui nos comentários e compartilhe este alerta com quem está sofrendo na fila da Previdência!\n\n---\n#INSSDemorando #MandadoDeSeguranca #DestravarINSS #FilaDoINSS #MeuINSS #BPCLOAS #Aposentadoria #DireitoPrevidenciario #AdvogadoINSS #TeixeiraEVianaAdvogados #OMerito",
+      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/reels-bpc-05.html",
+      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/videos/capa-reels-bpc-05.png"
     }
   ]
 }
