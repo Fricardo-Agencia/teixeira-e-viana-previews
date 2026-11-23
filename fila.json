@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-18T13:47:38.401Z",
-  "total": 3,
+  "atualizadoEm": "2026-11-23T18:09:19.443Z",
+  "total": 4,
   "itens": [
     {
       "codigo": "REELS-015",
@@ -35,7 +35,8 @@
       "slug": "reels-bpc-05",
       "titulo": "INSS Demorando Mais de 60 Dias? Use Mandado de Segurança!",
       "tipo": "reels",
-      "status": "pronto_para_aprovacao",
+      "status": "Publicado no Instagram",
+      "permalink": "https://www.instagram.com/reel/DgFXtqplfuY/",
       "urlsPublicas": [
         "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/videos/capa-reels-bpc-05.png",
         "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/videos/reels-bpc-05/video.mp4"
@@ -43,6 +44,19 @@
       "legenda": "⏱️ PEDIDO TRAVADO NO INSS HÁ MAIS DE 60 DIAS? Veja como destravar na Justiça!\n\nVocê deu entrada no seu BPC/LOAS ou pedido de Aposentadoria e ele está há meses com status \"Em Análise\" no Meu INSS sem nenhuma resposta?\n\nSaiba que a lei estabelece prazos que o órgão é obrigado a cumprir:\n⚖️ A Lei do Processo Administrativo Federal (Lei nº 9.784/99) e os acordos homologados no STF determinam prazos entre 30 a 90 dias para a decisão conclusiva.\n\nQuando o INSS ultrapassa esse prazo sem justificativa razoável:\n🚨 Cabe uma ação judicial de MANDADO DE SEGURANÇA com pedido de liminar na Justiça Federal!\nO juiz intima a chefia da agência do INSS a analisar e proferir o julgamento do seu pedido imediatamente, sob pena de crime de desobediência e aplicação de multa diária.\n\nNão é furar fila: é fazer valer o seu direito constitucional à razoável duração do processo!\n\n💬 Há quanto tempo o seu pedido está esperando análise no Meu INSS? Conte aqui nos comentários e compartilhe este alerta com quem está sofrendo na fila da Previdência!\n\n---\n#INSSDemorando #MandadoDeSeguranca #DestravarINSS #FilaDoINSS #MeuINSS #BPCLOAS #Aposentadoria #DireitoPrevidenciario #AdvogadoINSS #TeixeiraEVianaAdvogados #OMerito",
       "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/reels-bpc-05.html",
       "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/videos/capa-reels-bpc-05.png"
+    },
+    {
+      "codigo": "POST-NATAL-01",
+      "slug": "clima-natalino-escritorio",
+      "titulo": "Bastidores de Fim de Ano — Teixeira & Viana em Clima de Natal",
+      "tipo": "post_individual",
+      "status": "Em Aprovação",
+      "urlsPublicas": [
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/posts-individuais/clima-natalino/post-escritorio-clima-natalino.png"
+      ],
+      "legenda": "Até o nosso monitor já colocou o gorro de Papai Noel... Mas o foco nos seus direitos continua a todo vapor! 🎅⚖️\n\nDezembro está chegando e o escritório Teixeira e Viana já entrou no ritmo natalino! Entre uma petição e outra, decoramos cada cantinho para que nosso espaço fique ainda mais acolhedor para a nossa equipe e para cada cliente que passa por aqui.\n\nAfinal, a verdadeira advocacia humanizada é feita de seriedade técnica nos autos, mas com sorriso no rosto, acolhimento e afeto no dia a dia.\n\nPassando pelo Centro de Campos? Passe aqui para tomar um café conosco e conhecer nosso espaço em clima de fim de ano! ☕✨\n\n---\n#BastidoresTV #AdvocaciaComAmor #NatalNoEscritorio #TeixeiraEViana #CamposRJ #DireitoHumanizado #AdvocaciaCampos #FimDeAno",
+      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/clima-natalino-escritorio.html",
+      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/posts-individuais/clima-natalino/post-escritorio-clima-natalino.png"
     }
   ]
 }
