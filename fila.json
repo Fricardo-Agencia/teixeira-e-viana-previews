@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-23T18:09:19.443Z",
-  "total": 4,
+  "atualizadoEm": "2026-11-23T22:11:24.147Z",
+  "total": 5,
   "itens": [
     {
       "codigo": "REELS-015",
@@ -57,6 +57,25 @@
       "legenda": "Até o nosso monitor já colocou o gorro de Papai Noel... Mas o foco nos seus direitos continua a todo vapor! 🎅⚖️\n\nDezembro está chegando e o escritório Teixeira e Viana já entrou no ritmo natalino! Entre uma petição e outra, decoramos cada cantinho para que nosso espaço fique ainda mais acolhedor para a nossa equipe e para cada cliente que passa por aqui.\n\nAfinal, a verdadeira advocacia humanizada é feita de seriedade técnica nos autos, mas com sorriso no rosto, acolhimento e afeto no dia a dia.\n\nPassando pelo Centro de Campos? Passe aqui para tomar um café conosco e conhecer nosso espaço em clima de fim de ano! ☕✨\n\n---\n#BastidoresTV #AdvocaciaComAmor #NatalNoEscritorio #TeixeiraEViana #CamposRJ #DireitoHumanizado #AdvocaciaCampos #FimDeAno",
       "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/clima-natalino-escritorio.html",
       "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/posts-individuais/clima-natalino/post-escritorio-clima-natalino.png"
+    },
+    {
+      "codigo": "CARROSSEL-016",
+      "slug": "pensao-por-morte-100-pec34",
+      "titulo": "A Volta dos 100% da Pensão por Morte Avança no Congresso (PEC 34/2021)",
+      "tipo": "carrossel",
+      "status": "pronto_para_aprovacao",
+      "urlsPublicas": [
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/pensao-por-morte-100-pec34/slide-01.png",
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/pensao-por-morte-100-pec34/slide-02.png",
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/pensao-por-morte-100-pec34/slide-03.png",
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/pensao-por-morte-100-pec34/slide-04.png",
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/pensao-por-morte-100-pec34/slide-05.png",
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/pensao-por-morte-100-pec34/slide-06.png",
+        "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/pensao-por-morte-100-pec34/slide-07.png"
+      ],
+      "legenda": "A volta dos 100% da pensão por morte deu um passo decisivo no Congresso Nacional! ⚖️🏛️\n\nDesde a Reforma da Previdência em 2019 (EC 103), milhares de viúvas e dependentes sofreram com uma regra desproporcional: a pensão foi reduzida para uma cota de 50% + 10% por dependente.\n\nNa prática, uma viúva sem filhos menores passou a receber apenas 60% do valor a que o segurado tinha direito — enquanto o aluguel, a conta de luz, o condomínio e a alimentação continuaram exatamente os mesmos.\n\n📌 O QUE FOI APROVADO NA COMISSÃO (PEC 34/2021):\n\n• Fim do Achatamento: A proposta extingue a fórmula de cotas reduzidas e garante o retorno ao patamar de 100% da média contributiva.\n• Reconhecimento da Realidade: O Parlamento reconheceu que a perda do cônjuge não diminui os custos essenciais da casa.\n• Próximas Etapas: A vitória na Comissão foi um avanço histórico, mas o projeto ainda será submetido a votação no Plenário da Câmara e do Senado em dois turnos.\n\nNo Teixeira & Viana Advogados, prezamos pela transparência e pelo rigor técnico: o projeto ainda não é lei definitiva em vigor, mas representa o maior movimento de recomposição dessa garantia nos últimos anos.\n\n💬 Você conhece alguém que teve o benefício reduzido após 2019? Salve este post para acompanhar as votações e compartilhe com quem precisa desta notícia de esperança!\n\n---\n#PensaoPorMorte #INSS #ReformaDaPrevidencia #PEC34 #DireitoPrevidenciario #Aposentadoria #Viuvas #PrevidenciaSocial #TeixeiraEVianaAdvogados #CamposDosGoytacazes #AdvocaciaPrevidenciaria",
+      "preview": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/previas/pensao-por-morte-100-pec34.html",
+      "capa": "https://fricardo-agencia.github.io/teixeira-e-viana-previews/saidas/carrosseis/pensao-por-morte-100-pec34/slide-01.png"
     }
   ]
 }
