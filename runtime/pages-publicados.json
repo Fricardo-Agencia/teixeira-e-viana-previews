@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "reels-bpc-01",
+    "titulo": "Quem Nunca Contribuiu Tem Direito ao BPC/LOAS? Requisitos e Regras",
+    "status": "pronto_para_aprovacao",
+    "imagem": "saidas/videos/capa-reels-bpc-01.png",
+    "preview": "previas/reels-bpc-01.html"
+  },
+  {
+    "slug": "reels-bpc-02",
+    "titulo": "As 2 Grandes Desvantagens do BPC/LOAS Que o INSS Não Te Conta",
+    "status": "pronto_para_aprovacao",
+    "imagem": "saidas/videos/capa-reels-bpc-02.png",
+    "preview": "previas/reels-bpc-02.html"
+  },
+  {
+    "slug": "reels-bpc-05",
+    "titulo": "INSS Demorando Mais de 60 Dias? Use Mandado de Segurança!",
+    "status": "Publicado no Instagram",
+    "imagem": "saidas/videos/capa-reels-bpc-05.png",
+    "preview": "previas/reels-bpc-05.html",
+    "permalink": "https://www.instagram.com/reel/DgFXtqplfuY/"
+  },
+  {
+    "slug": "clima-natalino-escritorio",
+    "titulo": "Bastidores de Fim de Ano — Teixeira & Viana em Clima de Natal",
+    "status": "Em Aprovação",
+    "imagem": "saidas/posts-individuais/clima-natalino/post-escritorio-clima-natalino.png",
+    "preview": "previas/clima-natalino-escritorio.html"
+  }
+]
