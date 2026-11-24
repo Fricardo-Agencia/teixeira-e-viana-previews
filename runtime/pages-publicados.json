@@ -22,17 +22,17 @@
     "permalink": "https://www.instagram.com/reel/DgFXtqplfuY/"
   },
   {
-    "slug": "clima-natalino-escritorio",
-    "titulo": "Bastidores de Fim de Ano — Teixeira & Viana em Clima de Natal",
-    "status": "Em Aprovação",
-    "imagem": "saidas/posts-individuais/clima-natalino/post-escritorio-clima-natalino.png",
-    "preview": "previas/clima-natalino-escritorio.html"
-  },
-  {
     "slug": "pensao-por-morte-100-pec34",
     "titulo": "A Volta dos 100% da Pensão por Morte Avança no Congresso (PEC 34/2021)",
     "status": "pronto_para_aprovacao",
     "imagem": "saidas/carrosseis/pensao-por-morte-100-pec34/slide-01.png",
     "preview": "previas/pensao-por-morte-100-pec34.html"
+  },
+  {
+    "slug": "clima-natalino-escritorio",
+    "titulo": "Bastidores de Fim de Ano — Teixeira & Viana em Clima de Natal",
+    "status": "pronto_para_aprovacao",
+    "imagem": "saidas/posts-individuais/clima-natalino/post-escritorio-clima-natalino.png",
+    "preview": "previas/clima-natalino-escritorio.html"
   }
 ]
