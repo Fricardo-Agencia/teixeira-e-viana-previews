@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Vitória dos Professores RJ: O Piso Nacional no Vencimento-Base</title>
+  <style>
+    :root {
+      --page: #0b1526;
+      --surface: #fff;
+      --line: #efefef;
+      --text: #111;
+      --muted: #737373;
+      --blue: #0095f6;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 38px 18px;
+      background: var(--page);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    .post {
+      width: min(420px, calc(100vw - 36px));
+      overflow: hidden;
+      border: 1px solid #1e293b;
+      border-radius: 14px;
+      background: var(--surface);
+      box-shadow: 0 18px 48px rgba(0, 0, 0, 0.4);
+    }
+
+    .post.is-reels {
+      width: min(400px, calc(100vw - 36px));
+      border-radius: 14px;
+    }
+
+    .post.is-reels .media {
+      aspect-ratio: 9 / 16;
+    }
+
+    .post-header {
+      height: 56px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 12px;
+      border-bottom: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: #0e1c2f;
+      display: grid;
+      place-items: center;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .profile {
+      min-width: 0;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .username {
+      overflow: hidden;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .verified {
+      width: 14px;
+      height: 14px;
+      flex: 0 0 14px;
+      color: var(--blue);
+    }
+
+    .icon-button {
+      display: inline-grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border: 0;
+      background: transparent;
+      color: var(--text);
+      cursor: pointer;
+    }
+
+    .icon-button svg {
+      width: 24px;
+      height: 24px;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+    }
+
+    .media {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      background: #08111d;
+      cursor: grab;
+      touch-action: pan-y;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    .track {
+      display: flex;
+      height: 100%;
+      transition: transform 260ms ease;
+      will-change: transform;
+    }
+
+    .slide {
+      min-width: 100%;
+      height: 100%;
+      background: #08111d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      pointer-events: none;
+    }
+
+    .counter {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 3;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: rgba(0, 0, 0, 0.65);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1;
+    }
+
+    .hit {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: 2;
+      width: 33.333%;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+
+    .hit.prev { left: 0; }
+    .hit.next { right: 0; }
+
+    .dots {
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+      height: 18px;
+      padding-top: 8px;
+      background: var(--surface);
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border: 0;
+      border-radius: 50%;
+      background: #c7c7c7;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background: var(--blue);
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      height: 40px;
+      padding: 4px 12px 8px;
+      background: var(--surface);
+    }
+
+    .actions .icon-button {
+      width: 26px;
+      height: 26px;
+    }
+
+    .actions .icon-button svg {
+      width: 25px;
+      height: 25px;
+    }
+
+    .save {
+      margin-left: auto;
+    }
+
+    .likes,
+    .caption,
+    .time {
+      background: var(--surface);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .likes {
+      padding: 0 12px 4px;
+      font-weight: 600;
+    }
+
+    .caption {
+      padding: 0 12px 2px;
+      white-space: pre-wrap;
+    }
+
+    .caption strong {
+      font-weight: 600;
+    }
+
+    .caption .more,
+    .time {
+      color: var(--muted);
+    }
+
+    .time {
+      padding: 4px 12px 14px;
+      font-size: 11px;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 520px) {
+      body {
+        display: block;
+        min-height: 100vh;
+        padding: 0;
+        background: var(--surface);
+      }
+
+      .post {
+        width: 100vw;
+        min-height: 100vh;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+
+      .media {
+        width: 100vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <article class="post is-reels" aria-label="Preview do post no Instagram">
+    <header class="post-header">
+      <div class="avatar">
+        <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2096%2096%22%3E%3Crect%20width%3D%2296%22%20height%3D%2296%22%20rx%3D%2248%22%20fill%3D%22%23112137%22%2F%3E%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23E2B14B%22%3ETV%3C%2Ftext%3E%3C%2Fsvg%3E" alt="Avatar de teixeiraeviana.adv">
+      </div>
+      <div class="profile">
+        <span class="username">teixeiraeviana.adv</span>
+        <svg class="verified" viewBox="0 0 24 24" aria-label="Verificado">
+          <path fill="currentColor" d="M22 12l-2.1 2.4.3 3.2-3.1.7-1.6 2.8-2.9-1.3-2.9 1.3-1.6-2.8-3.1-.7.3-3.2L3 12l2.1-2.4-.3-3.2 3.1-.7 1.6-2.8 2.9 1.3 2.9-1.3 1.6 2.8 3.1.7-.3 3.2L22 12z"></path>
+          <path d="M8.3 12.2l2.3 2.3 5.1-5.1" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+        </svg>
+      </div>
+      <button class="icon-button" type="button" aria-label="Mais opções">
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="5" r="1.5" fill="currentColor" stroke="none"></circle>
+          <circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"></circle>
+          <circle cx="12" cy="19" r="1.5" fill="currentColor" stroke="none"></circle>
+        </svg>
+      </button>
+    </header>
+
+    <section class="media" id="media">
+      <div class="track" id="track"></div>
+      <span class="counter" id="counter">1/2</span>
+      <button class="hit prev" type="button" id="prev" aria-label="Slide anterior"></button>
+      <button class="hit next" type="button" id="next" aria-label="Próximo slide"></button>
+    </section>
+
+    <nav class="dots" id="dots" aria-label="Navegação dos slides"></nav>
+
+    <section class="actions" aria-label="Ações do post">
+      <button class="icon-button" type="button" aria-label="Curtir"><svg viewBox="0 0 24 24"><path d="M20.8 4.6c-1.8-1.8-4.7-1.8-6.5 0L12 6.9 9.7 4.6c-1.8-1.8-4.7-1.8-6.5 0s-1.8 4.7 0 6.5L12 20l8.8-8.9c1.8-1.8 1.8-4.7 0-6.5z"></path></svg></button>
+      <button class="icon-button" type="button" aria-label="Comentar"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-8.7 8.3 9.7 9.7 0 0 1-4.3-1l-5 1.2 1.3-4.4a8.2 8.2 0 0 1-.9-3.8A8.4 8.4 0 0 1 12 3.5a8.4 8.4 0 0 1 9 8z"></path></svg></button>
+      <button class="icon-button" type="button" aria-label="Compartilhar"><svg viewBox="0 0 24 24"><path d="M22 3L9.5 13.2"></path><path d="M22 3l-4.2 18-6.1-7.4L3 10.6 22 3z"></path></svg></button>
+      <button class="icon-button save" type="button" aria-label="Salvar"><svg viewBox="0 0 24 24"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z"></path></svg></button>
+    </section>
+
+    <div class="likes">Vídeo Reels em Alta Definição (1080x1920)</div>
+    <p class="caption"><strong>teixeiraeviana.adv</strong> ⚖️ VITÓRIA DOS PROFESSORES! O PISO NACIONAL NO SEU CONTRACHEQUE
+
+Você sabia que o Governo do Estado do Rio de Janeiro pode estar deixando de pagar até R$ 8.911 a mais no seu vencimento-base todo mês?
+
+Para fingir que cumpre a Lei Federal nº 11.738/2008, o Estado adotou uma manobra: paga apenas um "abono provisório" no início da carreira. Só que essa medida congela a carreira, desvaloriza quem tem anos de dedicação em sala de aula e achata toda a tabela salarial!
+
+A Justiça já pacificou: o Piso Nacional deve ser aplicado diretamente como VENCIMENTO-BASE, respeitando o escalonamento de 12% entre todas as referências (da 3 à 9), conforme a Lei Estadual nº 1.614/90.
+
+📊 CONFIRA OS GANHOS REAIS NA CARREIRA (TABELA SEPE-RJ):
+1️⃣ Docente I — 18h:
+• Ref 3: de R$ 1.588,41 ➔ R$ 3.620,23 (+R$ 2.031,82/mês)
+• Ref 6: de R$ 2.231,06 ➔ R$ 5.086,17 (+R$ 2.855,11/mês)
+• Ref 9: de R$ 3.135,19 ➔ R$ 7.145,70 (+R$ 4.010,51/mês)
+
+2️⃣ Docente I — 30h:
+• Ref 3: de R$ 2.647,30 ➔ R$ 6.033,61 (+R$ 3.386,31/mês)
+• Ref 9: de R$ 5.225,31 ➔ R$ 11.909,27 (+R$ 6.683,96/mês)
+
+3️⃣ Docente I — 40h (Ex-FAEP):
+• Ref 3: de R$ 3.529,74 ➔ R$ 8.044,83 (+R$ 4.515,09/mês)
+• Ref 9: de R$ 6.967,11 ➔ R$ 15.879,06 (+R$ 8.911,95/mês)
+
+4️⃣ Especialistas — 25h (Supervisor, Orientador, Inspetor):
+• Ref 3: de R$ 2.206,08 ➔ R$ 5.028,00 (+R$ 2.821,92/mês)
+• Ref 9: de R$ 4.354,44 ➔ R$ 9.924,38 (+R$ 5.569,94/mês)
+
+🔥 O EFEITO CASCATA A SEU FAVOR:
+✅ Triênios de 15% a 60% disparam sobre o novo vencimento-base!
+✅ Retroativo de 5 anos com juros e correção monetária.
+✅ Aposentados e pensionistas com paridade recebem o mesmo reajuste.
+
+📲 Quer saber o cálculo exato para a sua matrícula?
+Comente a palavra "PISO" aqui embaixo ou envie uma mensagem no nosso Direct que a equipe da Teixeira e Viana Advogados analisa o seu contracheque sem custo inicial.
+
+---
+#PisoSalarial #PisoDoMagisterio #ProfessoresRJ #SEEDUCRJ #SEPERJ #DocenteI #ServidorPublicoRJ #EducacaoRJ #DireitoDoServidor #MagisterioEstadual #TeixeiraEVianaAdvogados #AdvocaciaRJ #CamposDosGoytacazes <span class="more">mais</span></p>
+    <div class="time">Pronto para Publicação</div>
+  </article>
+
+  <script id="slides-data" type="application/json">["../saidas/videos/capa-reels-piso-tabela.png","../saidas/videos/reels-piso-tabela/video.mp4"]</script>
+  <script>
+    const slides = JSON.parse(document.getElementById("slides-data")?.textContent || "[]");
+    const track = document.getElementById("track");
+    const dots = document.getElementById("dots");
+    const counter = document.getElementById("counter");
+    const prev = document.getElementById("prev");
+    const next = document.getElementById("next");
+    const media = document.getElementById("media");
+    let current = 0;
+
+    slides.forEach((src, index) => {
+      const slide = document.createElement("div");
+      slide.className = "slide";
+      const cleanSrc = src.split("?")[0].toLowerCase();
+      if (cleanSrc.endsWith(".mp4") || cleanSrc.endsWith(".webm")) {
+        const video = document.createElement("video");
+        video.src = src;
+        video.controls = true;
+        video.playsInline = true;
+        video.autoplay = true;
+        video.muted = true;
+        video.loop = true;
+        video.style.width = "100%";
+        video.style.height = "100%";
+        video.style.objectFit = "cover";
+        slide.appendChild(video);
+      } else {
+        const img = document.createElement("img");
+        img.src = src;
+        img.alt = `Slide ${index + 1}`;
+        slide.appendChild(img);
+      }
+      track.appendChild(slide);
+
+      const dot = document.createElement("button");
+      dot.className = `dot ${index === 0 ? "active" : ""}`;
+      dot.type = "button";
+      dot.addEventListener("click", () => goTo(index));
+      dots.appendChild(dot);
+    });
+
+    function update() {
+      track.style.transform = `translateX(-${current * 100}%)`;
+      counter.textContent = `${current + 1}/${slides.length}`;
+      Array.from(dots.children).forEach((dot, index) => {
+        dot.classList.toggle("active", index === current);
+      });
+      // Pause videos on other slides, play active video
+      Array.from(track.children).forEach((slide, idx) => {
+        const v = slide.querySelector("video");
+        if (v) {
+          if (idx === current) {
+            v.play().catch(() => {});
+          } else {
+            v.pause();
+          }
+        }
+      });
+    }
+
+    function goTo(index) {
+      current = Math.max(0, Math.min(index, slides.length - 1));
+      update();
+    }
+
+    prev.addEventListener("click", () => goTo(current - 1));
+    next.addEventListener("click", () => goTo(current + 1));
+  </script>
+</body>
+</html>
