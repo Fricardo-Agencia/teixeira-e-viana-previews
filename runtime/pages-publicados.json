@@ -24,10 +24,9 @@
   {
     "slug": "pensao-por-morte-100-pec34",
     "titulo": "A Volta dos 100% da Pensão por Morte Avança no Congresso (PEC 34/2021)",
-    "status": "Publicado no Instagram",
+    "status": "pronto_para_aprovacao",
     "imagem": "saidas/carrosseis/pensao-por-morte-100-pec34/slide-01.png",
-    "preview": "previas/pensao-por-morte-100-pec34.html",
-    "permalink": "https://www.instagram.com/p/DgKp5sKlFzh/"
+    "preview": "previas/pensao-por-morte-100-pec34.html"
   },
   {
     "slug": "clima-natalino-escritorio",
@@ -35,5 +34,12 @@
     "status": "pronto_para_aprovacao",
     "imagem": "saidas/posts-individuais/clima-natalino/post-escritorio-clima-natalino.png",
     "preview": "previas/clima-natalino-escritorio.html"
+  },
+  {
+    "slug": "tabela-piso-magisterio-carreira-rj",
+    "titulo": "Piso Nacional na Carreira: Tabela Completa de Valores para Professores e Especialistas da SEEDUC-RJ",
+    "status": "Em Aprovação",
+    "imagem": "saidas/carrosseis/tabela-piso-magisterio-carreira-rj/slide-01.png",
+    "preview": "previas/tabela-piso-magisterio-carreira-rj.html"
   }
 ]
